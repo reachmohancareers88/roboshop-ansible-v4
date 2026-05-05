@@ -4,7 +4,7 @@
     state: present
 
 - name: Load Schema
-  ansible.builtin.shell: mysql -h mysql-{{ env }}.rdevopsb89.online -u root -pRoboShop@1 < db/{{ item }}.sql
+  ansible.builtin.shell: mysql -h mysql-{{ env }}.drmohanlearning.online -u root -pRoboShop@1 < db/{{ item }}.sql
   args:
     chdir: /app
   loop: "{{ schema_files }}"
