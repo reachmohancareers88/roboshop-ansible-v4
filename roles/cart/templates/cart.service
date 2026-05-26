@@ -11,8 +11,8 @@ Restart=on-failure
 RestartSec=10
 SyslogIdentifier=cart
 
-Environment=REDIS_HOST=valkey-{{ env }}.rdevopsb89.online
-Environment=CATALOGUE_URL=http://catalogue-{{ env }}.rdevopsb89.online:8002
+Environment=REDIS_HOST=valkey-{{ env }}.drmohanlearning.online
+Environment=CATALOGUE_URL=http://catalogue-{{ env }}.drmohanlearning.online:8002
 Environment=PORT=8003
 
 [Install]
